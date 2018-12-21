@@ -1,0 +1,136 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(207, 204, 204);
+    background-image: url(../images/stranger-things-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    height: auto;
+}
+
+
+#strangeLogo {
+    text-align: center;
+}
+#startbtn { /*http://css3buttongenerator.com/*/
+    text-align: center;
+    background: rgb(138, 28, 28);
+    margin-top: 15px;
+    margin-left: 700px;
+    background-image: -webkit-linear-gradient(top, rgb(55, 15, 100), #05308dd2);
+    background-image: -moz-linear-gradient(top, rgb(55, 15, 100), #05308dd2);
+    background-image: -ms-linear-gradient(top, rgb(55, 15, 100), #05308dd2);
+    background-image: -o-linear-gradient(top, rgb(55, 15, 100), #05308dd2);
+    background-image: linear-gradient(to bottom, rgb(55, 15, 100), #05308dd2);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Indie Flower', cursive;
+    color: #fdfcfc;
+    font-size: 39px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+#startbtn:hover {
+    background: #0c0c0c;
+  background-image: -webkit-linear-gradient(top, #0c0c0c, #ac0404);
+  background-image: -moz-linear-gradient(top, #0c0c0c, #ac0404);
+  background-image: -ms-linear-gradient(top, #0c0c0c, #ac0404);
+  background-image: -o-linear-gradient(top, #0c0c0c, #ac0404);
+  background-image: linear-gradient(to bottom, #0c0c0c, #ac0404);
+  text-decoration: none;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 4em;
+    color: rgb(187, 31, 31);
+    text-shadow:
+    -10px -1px 0 #000,  
+    -1px -1px 0 #000, 
+    -9px 4px 0 #000, 
+    1px 0px 0 #000;
+}
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 4em;
+    color: rgb(187, 31, 31);
+    text-shadow:
+    -10px -1px 0 #000,  
+    -1px -1px 0 #000, 
+    -9px 4px 0 #000, 
+    1px 0px 0 #000;
+}
+.directions {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 2em;
+    color: rgb(163, 160, 160);
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: 'Abel',sans-serif;
+} 
+
+#time-container {
+    margin-top: 30px;
+    height: 120px;
+}
+
+.question {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#button-container {
+    text-align: center;
+    margin-top: 120px;
+}
+
+#results {
+    margin-top: 20px;
+    background-color: rgba(156, 154, 154, 0.363);
+}
+
+#mylanta {
+    color: rgba(64, 11, 124, 0.74);
+    font-family: 'Rammetto One', cursive;
+    text-shadow: -3px -2px 0 rgb(56, 55, 55),
+    -4px 0px 0 rgb(56, 55, 55),
+    0px -1px 0 rgb(56, 55, 55),
+    0px 0px 0 rgb(56, 55, 55);
+}
+
+#chalupas {
+    color: #de3607;
+    font-family: 'Rammetto One', cursive;
+    text-shadow: -3px -2px 0 rgb(56, 55, 55),
+    -4px 0px 0 rgb(56, 55, 55),
+    0px -1px 0 rgb(56, 55, 55),
+    0px 0px 0 rgb(56, 55, 55);
+}
+
+.score {
+    font-size: 2.2em;
+    color: black;
+}
