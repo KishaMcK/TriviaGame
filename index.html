@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Strange Trivia</title>
+        <title>Stranger Trivia</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
         <link href="./assets/css/reset.css" rel="stylesheet">
-        <link href="./assets/css/style.css" rel="styleSheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     </head>
         <body>
             <div class="container">
-                <div class="welcomeScreen">
-
+                <div id="welcomeScreen">
                     <div id="strangeLogo">
-                        <img src="assets/images/kisspng-t-shirt-eleven-demogorgon-hoodie-stranger-things-mig-21-5b087c3c8c8849.9774140615272827485756.png">
+                        <img src="assets/images/kisspng-t-shirt-eleven-demogorgon-hoodie-stranger-things-mig-21-5b087c3c8c8849.9774140615272827485756.png" alt="Fuller House Logo" id="fullerImg">
                     </div>
                     <br>
-                    <p class="directions">
-                        You will have 1 minute to answer 10 questions and safely escape the upside down. 
-                    </p>
+                    <p class="directions">WHY ARE YOU KEEPING THIS CURIOSITY DOOR LOCKED?<br> You will have 1 minute to answer 10 questions.</p>
                     <div id="startDiv">
-                        <button type="button" id="startbtn" class="btn primary">curiosity voyage</button>
+                        <button type="button" id="startbtn" class="btn btn primary">Curiosity Voyage</button>
                     </div>
                 </div>
             </div>
-
             <div>
                 <div id="time-container">
                     <div id="timeLeft"></div>
-                </div>
-                <div class="quiz-container">
+                </div> 
+                <div class="quiz-container">      
                     <div id="quiz"></div>
+                </div>
+                <div id="button-container">
+                    <button id="previous">Previous Question</button>
+                    <button id="next">Next Question</button>
+                    <button id="submit">Submit Quiz</button>
                 </div>
                 <div id="results">
                     <div id="pageBreak"></div>
@@ -39,8 +40,9 @@
                     <div id="numberWrong"></div>
                     <div id="numberUnanswered"></div>
                 </div>
+                <audio id="myAudio" src="assets/images/Stranger Things Theme Song (C418 REMIX).mp3"></audio>
             </div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-            <script src="./assets/javascript/app.js"></script>
-        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./assets/javascript/app.js"></script>
+    </body>   
 </html>
